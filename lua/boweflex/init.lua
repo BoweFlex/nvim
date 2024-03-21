@@ -1,5 +1,5 @@
-require("jbowe.remap")
-require("jbowe.set")
+require("boweflex.remap")
+require("boweflex.set")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -15,5 +15,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    { import = 'jbowe.plugins' },
+    { import = 'boweflex.plugins' },
 })

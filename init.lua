@@ -1,2 +1,2 @@
-require("jbowe")
+require("boweflex")
 

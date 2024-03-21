@@ -8,12 +8,11 @@ masonlsp.setup {
     ensure_installed = {
         'lua_ls',
         'rust_analyzer',
-        'gopls',
         'ansiblels',
         'dockerls',
         'jsonls',
-        'pylsp',
-        'pyright'
+        'pyright',
+        'gopls'
     },
     handlers = {
         lsp.default_setup,
